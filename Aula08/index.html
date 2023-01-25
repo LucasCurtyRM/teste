@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário integrado com PHP</title>
+</head>
+<body>
+    <!-- Calculadora super simples -->
+    <h2>Exemplo 1</h2>
+    <form method="post" action="dados.php">
+        Valor: <input type="text" name="valor" />
+            <br><br> 
+        <label>Operações:</label> <br>
+        <b>x</b> <input type="radio" name="operacao" value="*">
+        <b>/</b> <input type="radio" name="operacao" value="/">
+        <b>+</b> <input type="radio" name="operacao" value="+">
+        <b>-</b> <input type="radio" name="operacao" value="-">
+            <br><br>
+        <input type="submit" value="Calcular" />
+    </form>
+
+    <h2>Exemplo 2</h2>
+    <form method="post" action="dados.php">
+        Nome:<input type="text" name="nome" /><br><br>
+        E-mail: <input type="email" name="emai/"/><br><br>
+        Data de Nascimento: <input type="date" name="nascimento" /> <br><br>
+        <input type="radio" name="sexo" value="Masculino"/>
+        <label>Masculino</label>
+        <input type="radio" name="sexo" value="Feminino"/>
+        <label>Feminino</label>
+            <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <h3>Exemplo 3</h3>
+    <a href="./exemplo03/index.html">Acesse o Exemplo 03!!!</a>
+</body>
+</html>
